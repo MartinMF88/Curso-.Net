@@ -2,7 +2,7 @@
 
 namespace UniversityApiBackend.DataModels
 {
-    public class Curso
+    public class Curso : BaseEntity
     {
         [Required, StringLength(50)]
         public string Nombre { get; set; } = string.Empty;
